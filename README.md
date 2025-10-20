@@ -52,19 +52,11 @@ Situs sudah stabil. Saatnya menambahkan fungsionalitas baru dengan alur kerja ti
 
 2. Buat minimal 3 halaman baru lengkap dengan stylenya (minimal "Tentang Kami", "Produk", dan "Kontak"):
    - Buat branch baru untuk membuat halaman" tersebut dari develop.
-3. Simulasi Kolaborasi Tim:
-   - Setelah semua anggota tim selesai dan melakukan push, salah satu dari mereka harus membuat Pull Request (PR) dari branch" tersebut ke develop.
-
-   - Anggota tim lainnya harus melakukan Code Review di halaman PR GitHub.
-
-   - Merge PR tersebut.
+3. Setelah halaman-halaman baru selesai dibuat, buat PR ke branch develop.
 
 #### Fase 4: Finalisasi
 Fitur baru sudah siap di develop. Sekarang saatnya mempersiapkan peluncuran resmi.
 
-1. Resolusi Konflik: Merge branch about-us yang terbengkalai itu ke dalam branch develop Anda. Solve konfliknya jika ada.
+1. Penyelesaian Konflik: Buat PR about-us yang terbengkalai itu ke branch develop (merge lewat github). Solve konfliknya jika ada.
 
 2. Integrasi Final: Setelah konflik selesai dan fitur" yang dibuat terintegrasi, Merge branch develop yang sudah lengkap ke main.
-
-
-

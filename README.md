@@ -8,10 +8,6 @@
 
 # Misi Perbaikan & Peluncuran Ulang Situs Toko Online "TechStore"
 
-## Tipe: Ujian Praktik Berbasis Tim (2-3 orang per tim)
-
-## Platform Pengumpulan: Tautan ke forked repository GitHub tim.
-
 ### Skenario & Problem Statement
 
 Selamat! Tim Anda adalah sebuah agensi web profesional yang baru saja ditunjuk untuk mengambil alih proyek "TechStore". Proyek ini sebelumnya dikerjakan oleh seorang developer junior, dan hasilnya masih jauh dari standar profesional. Klien melaporkan bahwa websitenya jelek dan mereka khawatir tentang keamanan proyek.
@@ -60,3 +56,4 @@ Fitur baru sudah siap di develop. Sekarang saatnya mempersiapkan peluncuran resm
 1. Penyelesaian Konflik: Buat PR about-us yang terbengkalai itu ke branch develop (merge lewat github). Solve konfliknya jika ada.
 
 2. Integrasi Final: Setelah konflik selesai dan fitur" yang dibuat terintegrasi, Merge branch develop yang sudah lengkap ke main.
+

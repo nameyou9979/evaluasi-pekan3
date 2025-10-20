@@ -1,3 +1,9 @@
+# How To Start #
+1. git clone git@github.com:iqbaljlldn/evaluasi_pekan_3.git
+2. cd evaluasi_pekan_3
+3. git remote remove origin
+4. git remote add origin (url git repositoriy kalian)
+
 # Misi Perbaikan & Peluncuran Ulang Situs Toko Online "TechStore"
 
 ## Tipe: Ujian Praktik Berbasis Tim (2-3 orang per tim)
@@ -9,8 +15,6 @@
 Selamat! Tim Anda adalah sebuah agensi web profesional yang baru saja ditunjuk untuk mengambil alih proyek "TechStore". Proyek ini sebelumnya dikerjakan oleh seorang developer junior, dan hasilnya masih jauh dari standar profesional. Klien melaporkan bahwa websitenya jelek dan mereka khawatir tentang keamanan proyek.
 
 Tugas utama tim Anda adalah melakukan audit total, memperbaiki semua masalah, merapikan repository agar sesuai standar industri, dan mempersiapkan situs ini untuk peluncuran resminya (Versi 1.0).
-
-Setiap tim harus mem-fork repository "rusak" yang telah disediakan.
 
 ### Tugas Utama
 #### Fase 1: Investigasi & Audit (CLI & Git Forensics)
@@ -36,31 +40,28 @@ Sekarang saatnya membersihkan kekacauan. Semua pekerjaan di fase ini harus dilak
 
 2. Perbaiki bug-bug yang anda temukan
 
-3. Pembersihan Riwayat: Hapus total file debug.log dari seluruh riwayat Git. Hanya menghapusnya di commit baru tidaklah cukup; jejak file dan isinya harus benar-benar lenyap dari sejarah proyek.
-
-4. Commit Profesional: Lakukan commit untuk setiap perubahan besar dengan menggunakan pesan commit yang konvensional dan deskriptif (misal: fix:, refactor:, docs:).
+3. Commit Profesional: Lakukan commit untuk setiap perubahan besar dengan menggunakan pesan commit yang konvensional dan deskriptif (misal: fix:, refactor:, docs:).
 
 #### Fase 3: Pengembangan Fitur & Kolaborasi
 
 Situs sudah stabil. Saatnya menambahkan fungsionalitas baru dengan alur kerja tim yang benar.
 
-1. Buat Fondasi Baru: Merge branch hotfix-cleanup ke main. Setelah itu, buat branch baru bernama develop dari main. Semua pengembangan fitur baru harus dimulai dari sini.
+1. Buat Fondasi Baru: Merge branch hotfix-cleanup ke main. Setelah itu, buat branch baru bernama develop dari main. Semua pengembangan fitur baru harus dimulai dari develop.
 
 2. Buat minimal 3 halaman baru lengkap dengan stylenya (minimal "Tentang Kami", "Produk", dan "Kontak"):
-   - Buat branch baru untuk pembuat halaman" tersebut dari develop.
+   - Buat branch baru untuk membuat halaman" tersebut dari develop.
 3. Simulasi Kolaborasi Tim:
    - Setelah semua anggota tim selesai dan melakukan push, salah satu dari mereka harus membuat Pull Request (PR) dari branch" tersebut ke develop.
 
    - Anggota tim lainnya harus melakukan Code Review di halaman PR GitHub.
 
-   - Setelah disetujui, Merge PR tersebut.
+   - Merge PR tersebut.
 
-#### Fase 4: Finalisasi & Peluncuran V1.0
+#### Fase 4: Finalisasi
 Fitur baru sudah siap di develop. Sekarang saatnya mempersiapkan peluncuran resmi.
 
 1. Resolusi Konflik: Merge branch about-us yang terbengkalai itu ke dalam branch develop Anda. Solve konfliknya jika ada.
 
 2. Integrasi Final: Setelah konflik selesai dan fitur" yang dibuat terintegrasi, Merge branch develop yang sudah lengkap ke main.
 
-3. Tagging Rilis: Buat sebuah tag bernama v1.0.0 pada commit terakhir di main untuk menandai peluncuran resmi landing page "TechStore".
 

@@ -1,8 +1,10 @@
 # How To Start #
 1. git clone git@github.com:iqbaljlldn/evaluasi_pekan_3.git
 2. cd evaluasi_pekan_3
-3. git remote remove origin
-4. git remote add origin (url git repositoriy kalian)
+3. git switch -c about-us
+4. git pull origin about-us
+5. git remote remove origin
+6. git remote add origin (url git repositoriy kalian)
 
 # Misi Perbaikan & Peluncuran Ulang Situs Toko Online "TechStore"
 
@@ -63,5 +65,6 @@ Fitur baru sudah siap di develop. Sekarang saatnya mempersiapkan peluncuran resm
 1. Resolusi Konflik: Merge branch about-us yang terbengkalai itu ke dalam branch develop Anda. Solve konfliknya jika ada.
 
 2. Integrasi Final: Setelah konflik selesai dan fitur" yang dibuat terintegrasi, Merge branch develop yang sudah lengkap ke main.
+
 
 
